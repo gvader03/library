@@ -114,6 +114,7 @@ body {
     width: 25%;
     border: 3px solid black;
     border-radius: 5px;
+    padding-top: 17px;
 }
 
 .control {
@@ -137,13 +138,14 @@ body {
 .btn {
     background-color: rgba(0, 0, 0, 0);
     color: var(--secondary-color);
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: 700;
     text-align: center;
     border: 2px solid var(--primary-color);
-    border-radius: 5px;
-    padding: 10px 40px;
-    width: 50px;
-    margin: 0 10px 0 10px;
+    border-radius:5px;
+    width: 30%;
+    height: 40px;
+    margin: 10px 10px 0 10px;
 }
 
 .btn:hover {
